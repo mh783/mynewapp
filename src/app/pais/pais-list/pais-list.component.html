@@ -1,0 +1,28 @@
+
+
+<div *ngFor="let pais of paises" class="table">
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">nombre</th>
+        <th scope="col">año</th>
+        <th scope="col">idioma</th>
+        <th scope="col">capital</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>{{pais.id}}</td>
+        <td>{{pais.name}}</td>
+        
+        <td>{{pais.capital}}</td>
+        <td>{{pais.ano}}</td>
+      </tr>
+    
+    </tbody>
+    </table>
+</div>
